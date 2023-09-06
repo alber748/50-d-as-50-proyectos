@@ -1,0 +1,66 @@
+*{
+      margin: 0;
+      padding: 0;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 14px;
+}
+body{
+      background-color: #f6f7fb;
+}
+.container {
+      margin: auto;
+      height: 100vh;
+      width: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+}
+.card {
+      min-width: 250px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+.control-numb{
+      text-align: center;
+      width: 25px;
+      height: 25px;
+      border: #e0e0e0 3px solid;
+      color: #999999;
+      background-color: #fff;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+}
+.control-active {
+      border-color: #3498db;
+}
+.btn-group {
+      margin-top: 30px;
+}
+.btn {
+      min-width: 90px;
+      height: 33px;
+      border-radius: 8px;
+      border: none;
+      background-color: #e0e0e0;
+      cursor: not-allowed;
+      color: #fff;
+      margin: 5px;
+}
+.btn-active{
+      background-color: #3498db;
+      cursor: pointer;
+}
+.progress-bar {
+      width: 70px;
+      height: 3px;
+      background-color: #e0e0e0;
+}
+.progress-bar-active {
+
+      background-color: #3498db;
+}
